@@ -1,6 +1,9 @@
 #Emma Hoffman
 #06/08/21
 
+from typing import NewType
+
+
 def menu():
     print("**********************")
 print ("My Game")
@@ -24,13 +27,11 @@ while option!= 0:
         print("Option 3 has been chosen")
     elif option == 4:
         #do option 4 things
-        
-        print("Invalid Option")
-
-
-print()
+      
+        print()
 menu()
 option = int(input("Enter your option"))
+
 print("Good bye")
 
 
