@@ -21,8 +21,8 @@ def menu():         # declaring a function o
     print("*"," "*2,"L8- Exit Game"," "*7,"*")
     print("*"*28)
     print("Enter either L1,L2,L3,L4,L5,L6,L7 or EX", end= " ")
-    varChoice = input()    #local variable 
-    return varChoice 
+    option = input()    #local variable 
+    return option
  
 def score ():
     print ("Scores")
@@ -42,8 +42,6 @@ def gamePause():
 varChoice=menu()  
 while varChoice != "EX":
     if varChoice == "L1":
-        convert = True  #boolean Variable is True or False
-        while convert:
             print ("You are in level 1")
             print("please enter your name")
             txt=input()
@@ -51,8 +49,6 @@ while varChoice != "EX":
             print(x)
             convert=gamePause()
     if varChoice == "L2":
-        convert= True
-        while convert:
             print ("You are in level 2")
             print("What is your favorite color?")
             txt=input()
@@ -60,8 +56,6 @@ while varChoice != "EX":
             print(x)
             convert=gamePause()
     if varChoice == "L3":
-        convert= True
-        while convert:
             score ()
             print("Who has the best score?")
             txt=input()
@@ -70,8 +64,6 @@ while varChoice != "EX":
             print(x)
             convert=gamePause()
     if varChoice == "L4":
-        convert= True
-        while convert:
             print("You are in level 4")
             print("How would you rate this game, from 1-10?")
             txt=input()
@@ -79,8 +71,6 @@ while varChoice != "EX":
             print(x)
             convert=gamePause()
     if varChoice == "L5":
-        convert= True
-        while convert:
             print("You are in level 5")
             print("Choose a fruit")
             txt=input()
@@ -88,8 +78,6 @@ while varChoice != "EX":
             print(x)
             convert=gamePause()
     if varChoice == "L6":
-        convert= True
-        while convert:
             print("You are in level 6")
             print("enter a word in capitals")
             txt=input()

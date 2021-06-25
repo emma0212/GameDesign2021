@@ -2,26 +2,24 @@
 #lists and their functions
 #indexing always starts with 0
 
-myFruit=["strawberries, apples, blackberries, mango"]
-myAnimals=["tigers, bears, dogs, koala"]
-myColors=["red, blue, orange, purple"]
-myStates=["California, Texas, Colorado, Wyoming"]
-myFoods=["cheese, eggs, chicken, fries"]
-
 def menu():
-    print("1. Fruit")
-print("2. Animals")
-print("3. Colors")
-print("4. States")
-print("5. Foods")
-print("6. Leave the game")
+    print("-"*50)
+print("-"," "*10,"Game"," "*16,"-")
+print("-"," "*10,"Menu"," "*16,"-")
+print()
+print("-"," "*10,"L1- Part 1"," "*10,"-")
+print("-"," "*10,"L2- Part 2"," "*10,"-")
+print("-"," "*10,"L3- Part 3"," "* 10,"-")
+print("-"," "*10,"L4- Part 4"," " *10,"-")
+print("-"," "*10,"L5- Part 5"," " *10,"-")
+print("-"," "*10,"L6- Part 6"," " *10,"-")
+print("-"," "*10,"L7- Part 7"," " *10,"-")
+print("-"," "*10,"L8- Exit Game"," "*7,"-")
+print("*"*28)
+print("Enter either 1,2,3,4,5,6,7 or exit", end= " ")
+option = input()    #local variable 
 
-option=int(input("Choose your item"))
-while option !=0:
-    if option == 1:
-        print(myFruit)
-
-
+ 
 
 
 
